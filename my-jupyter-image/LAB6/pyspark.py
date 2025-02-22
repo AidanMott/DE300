@@ -5,7 +5,7 @@ from pyspark.sql.dataframe import DataFrame
 from pyspark.sql.functions import col, when, isnan, isnull, count, avg, trim
 import os
 
-DATA_FOLDER = "word-count/data"
+DATA_FOLDER = "data"
 # source https://www.statista.com/statistics/242030/marital-status-of-the-us-population-by-sex/
 # the first value is male and the second is for female
 MARITAL_STATUS_BY_GENDER = [
